@@ -41,3 +41,46 @@
   color: black;
   border: 2px solid #fff;
 }
+
+@media only screen and (max-width: 600px) {
+  .word {
+    text-align: center;
+    padding-top: 180px;
+    letter-spacing: 10px;
+    font-size: 75px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;}
+
+    
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 500px;
+}
+.btn {
+  margin-left: 213px;
+  /* color: #fff; */
+  padding: 10px 40px;
+  border: 2px solid #fff;
+  background: transparent;
+  transition: 0.5s;
+  margin-bottom: 20px;
+
+}
+}
+
+@media only screen and (max-width: 858px) {
+  .btn {
+    margin-left: 366px;
+    color: #fff;
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    background: transparent;
+    transition: 0.5s;
+}
+}
